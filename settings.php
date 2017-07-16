@@ -10,6 +10,7 @@
 	$icon_class = get_option('icon_class');
 	$active = get_option('active');
 	$icon_position = get_option('icon_position');
+	global $message;
 ?>
 
 <form class="post-icon-form" method="POST" action="">

@@ -1,6 +1,6 @@
 <?php
 	//якщо натиснута кнопка "Save"
-	if ( $_POST['post_icon_form'] ) {
+	if ( isset($_POST['post_icon_form']) ) {
 		$posts_id = $_POST['posts_id'];
 		$icon_class = $_POST['icon_class'];
 		$active = $_POST['active'];
